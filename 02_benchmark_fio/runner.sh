@@ -2,7 +2,7 @@
 
 declare pid=$$
 declare executedate=$(date +%Y%m%d_%H%M%S)
-declare workdir="${PWD}/executed.${executedate}.${pid}"
+declare workdir="${PWD}/executed.$(hostname).${executedate}.${pid}"
 declare device=hioa
 declare -a partitions=('hioa1' 'hioa2' 'hioa3' 'hioa4' 'hioa5')
 declare -a filesystems=('ext4' 'xfs' 'btrfs' 'jfs' 'ext4' 'xfs' 'btrfs' 'jfs' 'ext4' 'xfs' 'btrfs' 'jfs' 'ext4' 'xfs' 'btrfs' 'jfs' 'ext4' 'xfs' 'btrfs' 'jfs')
