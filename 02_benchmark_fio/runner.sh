@@ -79,8 +79,11 @@ for ((i=0; i<${#filesystems[@]}; i++)) {
       do
         for ((numjobs=1; numjobs<=64;)) {
           for ((iodepth=1; iodepth<=64;)) {
-            jobname="job.${turnname}.${ioengine}.${readwrite}.bs${blocksize}.j${numjobs}"
+            jobname="job.${turnname}.${ioengine}.${readwrite}.bs${blocksize}.j${numjobs}.depth${iodepth}"
+            dstat --cpu --disk --page --int --load --mem --proc --io --swap --time --sys --aio --fs --ipc --lock --raw --socket --unix --vm --output "${workdir}/dstat.${jobname}.csv" > /dev/null &
+            dstatpid=$!
             fio -filename=/mnt/${partition}/fio.bin -ioengine=${ioengine} -direct=1 -invalidate=1 -readwrite=${readwrite} -blocksize=${blocksize} -size=1G -numjobs=${numjobs} -iodepth=${iodepth} -group_reporting -name=${jobname} | tee "${workdir}/fio.${jobname}.txt"
+            kill ${dstatpid}
             iodepth=$((iodepth * 2))
           }
           numjobs=$((numjobs * 2))
