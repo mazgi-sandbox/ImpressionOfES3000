@@ -1,0 +1,31 @@
+job.hioa1.ext4.sync.read.bs4k.j16.depth2: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=sync, iodepth=2
+...
+job.hioa1.ext4.sync.read.bs4k.j16.depth2: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=sync, iodepth=2
+fio-2.0.14
+Starting 16 processes
+
+job.hioa1.ext4.sync.read.bs4k.j16.depth2: (groupid=0, jobs=16): err= 0: pid=9606: Wed Jul 30 06:06:10 2014
+  read : io=16384MB, bw=591434KB/s, iops=147858 , runt= 28367msec
+    clat (usec): min=46 , max=1833 , avg=107.02, stdev=52.29
+     lat (usec): min=46 , max=1833 , avg=107.13, stdev=52.29
+    clat percentiles (usec):
+     |  1.00th=[   52],  5.00th=[   56], 10.00th=[   63], 20.00th=[   67],
+     | 30.00th=[   77], 40.00th=[   83], 50.00th=[   94], 60.00th=[  107],
+     | 70.00th=[  118], 80.00th=[  129], 90.00th=[  179], 95.00th=[  209],
+     | 99.00th=[  262], 99.50th=[  338], 99.90th=[  524], 99.95th=[  612],
+     | 99.99th=[  876]
+    bw (KB/s)  : min=33936, max=39552, per=6.25%, avg=36958.54, stdev=1371.13
+    lat (usec) : 50=0.06%, 100=54.20%, 250=44.57%, 500=1.05%, 750=0.11%
+    lat (usec) : 1000=0.01%
+    lat (msec) : 2=0.01%
+  cpu          : usr=2.50%, sys=7.52%, ctx=6813693, majf=0, minf=457
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=4194304/w=0/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+   READ: io=16384MB, aggrb=591434KB/s, minb=591434KB/s, maxb=591434KB/s, mint=28367msec, maxt=28367msec
+
+Disk stats (read/write):
+  hioa: ios=4162067/0, merge=0/0, ticks=388110/0, in_queue=390860, util=99.94%
