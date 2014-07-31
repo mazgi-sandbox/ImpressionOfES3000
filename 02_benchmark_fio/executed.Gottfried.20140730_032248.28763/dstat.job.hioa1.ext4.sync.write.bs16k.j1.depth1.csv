@@ -1,0 +1,9 @@
+"Dstat 0.7.2 CSV output"
+"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
+"Host:","Gottfried",,,,"User:","root"
+"Cmdline:","dstat --cpu --disk --page --int --load --mem --proc --io --swap --time --sys --aio --fs --ipc --lock --raw --socket --unix --vm --output /root/ImpressionOfES3000/02_benchmark_fio/executed.Gottfried.20140730_032248.28763/dstat.job.hioa1.ext4.sync.write.bs16k.j1.depth1.csv",,,,"Date:","30 Jul 2014 17:15:56 JST"
+
+"total cpu usage",,,,,,"dsk/total",,"paging",,"interrupts",,,"load avg",,,"memory usage",,,,"procs",,,"io/total",,"swap",,"system","system",,"async","filesystem",,"sysv ipc",,,"file locks",,,,"raw","sockets",,,,,"unix sockets",,,,"virtual memory",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","in","out","141","142","143","1m","5m","15m","used","buff","cach","free","run","blk","new","read","writ","used","free","time","int","csw","#aio","files","inodes","msg","sem","shm","pos","lck","rea","wri","raw","tot","tcp","udp","raw","frg","dgm","str","lis","act","majpf","minpf","alloc","free"
+0.027,0.065,99.735,0.167,0.000,0.006,4826308.801,3525713.874,0.0,0.0,259.884,259.884,259.884,63.900,63.090,55.340,691036160.0,61452288.0,4457078784.0,1.30021502976e+11,0.000,0.0,0.280,2063.999,1586.460,0.0,4294963200.0,30-07 17:15:56,3042.792,7706.938,0.0,192.0,283134.0,0.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,87.0,3.0,0.0,0.0,0.0,2.0,4.0,2.0,2.0,0.001,159.456,92.687,106.999
+0.587,0.545,96.855,2.013,0.0,0.0,0.0,1406795776.0,0.0,0.0,5369.0,5369.0,5369.0,63.900,63.090,55.340,690360320.0,61452288.0,4457512960.0,1.3002174464e+11,1.0,1.0,2.0,0.0,86014.0,0.0,4294963200.0,30-07 17:15:57,51175.0,86783.0,0.0,192.0,283139.0,0.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,87.0,3.0,0.0,0.0,0.0,2.0,4.0,2.0,2.0,0.0,177.0,407.0,360.0

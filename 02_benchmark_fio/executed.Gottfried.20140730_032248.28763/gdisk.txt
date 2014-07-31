@@ -1,0 +1,23 @@
+GPT fdisk (gdisk) version 0.8.10
+
+Partition table scan:
+  MBR: protective
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid GPT with protective MBR; using GPT.
+Disk /dev/hioa: 2352611328 sectors, 1.1 TiB
+Logical sector size: 512 bytes
+Disk identifier (GUID): 7F3AEE3E-240B-4FA7-A0F6-7360AA5B0179
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 2352611294
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 255459261 sectors (121.8 GiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048       419432447   200.0 GiB   8300  Linux filesystem
+   2       419432448       838862847   200.0 GiB   8300  Linux filesystem
+   3       838862848      1258293247   200.0 GiB   8300  Linux filesystem
+   4      1258293248      1677723647   200.0 GiB   8300  Linux filesystem
+   5      1677723648      2097154047   200.0 GiB   8300  Linux filesystem
