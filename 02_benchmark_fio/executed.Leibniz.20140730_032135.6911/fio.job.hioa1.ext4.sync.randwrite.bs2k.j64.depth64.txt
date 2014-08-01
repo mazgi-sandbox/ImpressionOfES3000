@@ -1,0 +1,5 @@
+job.hioa1.ext4.sync.randwrite.bs2k.j64.depth64: (g=0): rw=randwrite, bs=2K-2K/2K-2K/2K-2K, ioengine=sync, iodepth=64
+...
+job.hioa1.ext4.sync.randwrite.bs2k.j64.depth64: (g=0): rw=randwrite, bs=2K-2K/2K-2K/2K-2K, ioengine=sync, iodepth=64
+fio-2.0.14
+Starting 64 processes

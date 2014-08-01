@@ -3,3 +3,30 @@ job.hioa1.ext4.sync.randwrite.bs1k.j64.depth8: (g=0): rw=randwrite, bs=1K-1K/1K-
 job.hioa1.ext4.sync.randwrite.bs1k.j64.depth8: (g=0): rw=randwrite, bs=1K-1K/1K-1K/1K-1K, ioengine=sync, iodepth=8
 fio-2.0.14
 Starting 64 processes
+
+job.hioa1.ext4.sync.randwrite.bs1k.j64.depth8: (groupid=0, jobs=64): err= 0: pid=24962: Thu Jul 31 21:06:31 2014
+  write: io=65536MB, bw=8236.9KB/s, iops=8236 , runt=8147410msec
+    clat (usec): min=11 , max=725639 , avg=7767.64, stdev=1071.43
+     lat (usec): min=11 , max=725639 , avg=7767.75, stdev=1071.43
+    clat percentiles (usec):
+     |  1.00th=[ 6944],  5.00th=[ 7136], 10.00th=[ 7136], 20.00th=[ 7200],
+     | 30.00th=[ 7264], 40.00th=[ 7328], 50.00th=[ 7392], 60.00th=[ 7520],
+     | 70.00th=[ 7840], 80.00th=[ 8384], 90.00th=[ 9024], 95.00th=[ 9280],
+     | 99.00th=[10560], 99.50th=[10944], 99.90th=[12096], 99.95th=[12608],
+     | 99.99th=[14144]
+    bw (KB/s)  : min=    1, max= 7764, per=1.56%, avg=128.34, stdev= 8.82
+    lat (usec) : 20=0.01%, 50=0.01%, 100=0.01%, 250=0.01%, 500=0.01%
+    lat (usec) : 750=0.01%, 1000=0.01%
+    lat (msec) : 2=0.01%, 4=0.01%, 10=97.92%, 20=2.07%, 50=0.01%
+    lat (msec) : 750=0.01%
+  cpu          : usr=0.04%, sys=0.12%, ctx=134221146, majf=0, minf=1797
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=67108864/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+  WRITE: io=65536MB, aggrb=8236KB/s, minb=8236KB/s, maxb=8236KB/s, mint=8147410msec, maxt=8147410msec
+
+Disk stats (read/write):
+  hioa: ios=0/67110912, merge=0/0, ticks=0/7511350, in_queue=7518360, util=92.31%
