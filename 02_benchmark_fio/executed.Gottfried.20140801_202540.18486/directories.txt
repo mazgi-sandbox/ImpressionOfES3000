@@ -1,0 +1,5 @@
+drwxr-xr-x 1 root root 0 Jul 30 00:08 /mnt/hioa1/
+drwxr-xr-x 1 root root 0 Jul 30 00:08 /mnt/hioa2/
+drwxr-xr-x 1 root root 0 Jul 30 00:08 /mnt/hioa3/
+drwxr-xr-x 1 root root 0 Jul 30 00:08 /mnt/hioa4/
+drwxr-xr-x 1 root root 0 Jul 30 00:08 /mnt/hioa5/
