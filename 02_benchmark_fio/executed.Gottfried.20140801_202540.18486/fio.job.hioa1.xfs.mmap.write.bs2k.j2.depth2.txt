@@ -1,0 +1,12 @@
+02-08 05:05:25 1406923525
+job.hioa1.xfs.mmap.write.bs2k.j2.depth2: (g=0): rw=write, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=2
+job.hioa1.xfs.mmap.write.bs2k.j2.depth2: (g=0): rw=write, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=2
+fio-2.0.14
+Starting 2 processes
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  hioa: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+02-08 05:05:26 1406923526

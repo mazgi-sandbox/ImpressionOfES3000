@@ -1,0 +1,31 @@
+02-08 18:14:45 1406970885
+job.hioa1.xfs.sync.randwrite.bs8k.j8.depth2: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=sync, iodepth=2
+...
+job.hioa1.xfs.sync.randwrite.bs8k.j8.depth2: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=sync, iodepth=2
+fio-2.0.14
+Starting 8 processes
+
+job.hioa1.xfs.sync.randwrite.bs8k.j8.depth2: (groupid=0, jobs=8): err= 0: pid=12989: Sat Aug  2 18:14:49 2014
+  write: io=8192.0MB, bw=1844.7MB/s, iops=236112 , runt=  4441msec
+    clat (usec): min=13 , max=114 , avg=31.77, stdev= 6.59
+     lat (usec): min=13 , max=114 , avg=31.98, stdev= 6.60
+    clat percentiles (usec):
+     |  1.00th=[   21],  5.00th=[   23], 10.00th=[   24], 20.00th=[   25],
+     | 30.00th=[   26], 40.00th=[   28], 50.00th=[   32], 60.00th=[   36],
+     | 70.00th=[   37], 80.00th=[   38], 90.00th=[   40], 95.00th=[   41],
+     | 99.00th=[   44], 99.50th=[   48], 99.90th=[   53], 99.95th=[   59],
+     | 99.99th=[   77]
+    bw (KB/s)  : min=227824, max=244688, per=12.54%, avg=236814.00, stdev=2399.68
+    lat (usec) : 20=0.08%, 50=99.63%, 100=0.28%, 250=0.01%
+  cpu          : usr=8.84%, sys=21.36%, ctx=1049489, majf=0, minf=200
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=1048576/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+  WRITE: io=8192.0MB, aggrb=1844.7MB/s, minb=1844.7MB/s, maxb=1844.7MB/s, mint=4441msec, maxt=4441msec
+
+Disk stats (read/write):
+  hioa: ios=0/1041299, merge=0/0, ticks=0/23700, in_queue=24250, util=97.62%
+02-08 18:14:50 1406970890

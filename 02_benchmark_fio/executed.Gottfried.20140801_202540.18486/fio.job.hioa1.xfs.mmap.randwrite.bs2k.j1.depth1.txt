@@ -1,0 +1,11 @@
+02-08 07:39:44 1406932784
+job.hioa1.xfs.mmap.randwrite.bs2k.j1.depth1: (g=0): rw=randwrite, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=1
+fio-2.0.14
+Starting 1 process
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  hioa: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+02-08 07:39:44 1406932784
