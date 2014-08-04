@@ -1,0 +1,10 @@
+03-08 07:02:07 1407016927
+job.hioa2.btrfs.mmap.randread.bs2k.j8.depth2: (g=0): rw=randread, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=2
+...
+job.hioa2.btrfs.mmap.randread.bs2k.j8.depth2: (g=0): rw=randread, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=2
+fio-2.0.14
+Starting 8 processes
+
+
+Run status group 0 (all jobs):
+03-08 07:02:07 1407016927

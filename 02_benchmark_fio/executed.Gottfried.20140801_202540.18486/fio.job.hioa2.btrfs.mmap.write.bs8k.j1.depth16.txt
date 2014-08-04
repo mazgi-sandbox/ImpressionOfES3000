@@ -1,0 +1,8 @@
+03-08 06:36:19 1407015379
+job.hioa2.btrfs.mmap.write.bs8k.j1.depth16: (g=0): rw=write, bs=8K-8K/8K-8K/8K-8K, ioengine=mmap, iodepth=16
+fio-2.0.14
+Starting 1 process
+
+
+Run status group 0 (all jobs):
+03-08 06:36:19 1407015379

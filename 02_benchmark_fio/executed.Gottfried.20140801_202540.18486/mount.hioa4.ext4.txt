@@ -1,0 +1,1 @@
+/dev/hioa4 on /mnt/hioa4 type ext4 (rw)

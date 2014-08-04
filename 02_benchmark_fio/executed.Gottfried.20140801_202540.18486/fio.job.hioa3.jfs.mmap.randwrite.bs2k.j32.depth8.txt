@@ -1,0 +1,13 @@
+04-08 00:42:57 1407080577
+job.hioa3.jfs.mmap.randwrite.bs2k.j32.depth8: (g=0): rw=randwrite, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=8
+...
+job.hioa3.jfs.mmap.randwrite.bs2k.j32.depth8: (g=0): rw=randwrite, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=8
+fio-2.0.14
+Starting 32 processes
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  hioa: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+04-08 00:42:58 1407080578

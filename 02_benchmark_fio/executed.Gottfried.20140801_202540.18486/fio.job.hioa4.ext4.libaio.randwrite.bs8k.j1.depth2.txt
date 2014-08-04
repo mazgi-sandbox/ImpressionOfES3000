@@ -1,0 +1,31 @@
+04-08 19:27:18 1407148038
+job.hioa4.ext4.libaio.randwrite.bs8k.j1.depth2: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=libaio, iodepth=2
+fio-2.0.14
+Starting 1 process
+
+job.hioa4.ext4.libaio.randwrite.bs8k.j1.depth2: (groupid=0, jobs=1): err= 0: pid=11854: Mon Aug  4 19:27:20 2014
+  write: io=1024.0MB, bw=585470KB/s, iops=73183 , runt=  1791msec
+    slat (usec): min=3 , max=32 , avg= 3.82, stdev= 0.42
+    clat (usec): min=8 , max=63059 , avg=22.03, stdev=246.24
+     lat (usec): min=17 , max=63062 , avg=26.01, stdev=246.24
+    clat percentiles (usec):
+     |  1.00th=[   20],  5.00th=[   21], 10.00th=[   21], 20.00th=[   21],
+     | 30.00th=[   21], 40.00th=[   21], 50.00th=[   21], 60.00th=[   21],
+     | 70.00th=[   21], 80.00th=[   21], 90.00th=[   22], 95.00th=[   22],
+     | 99.00th=[   22], 99.50th=[   22], 99.90th=[   22], 99.95th=[   23],
+     | 99.99th=[   25]
+    bw (KB/s)  : min=530272, max=606912, per=99.30%, avg=581360.00, stdev=44243.51
+    lat (usec) : 10=0.01%, 20=0.16%, 50=99.84%, 100=0.01%
+    lat (msec) : 100=0.01%
+  cpu          : usr=26.82%, sys=31.28%, ctx=130985, majf=0, minf=21
+  IO depths    : 1=0.1%, 2=100.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=131072/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+  WRITE: io=1024.0MB, aggrb=585469KB/s, minb=585469KB/s, maxb=585469KB/s, mint=1791msec, maxt=1791msec
+
+Disk stats (read/write):
+  hioa: ios=0/120199, merge=0/0, ticks=0/2320, in_queue=2360, util=93.88%
+04-08 19:27:20 1407148040

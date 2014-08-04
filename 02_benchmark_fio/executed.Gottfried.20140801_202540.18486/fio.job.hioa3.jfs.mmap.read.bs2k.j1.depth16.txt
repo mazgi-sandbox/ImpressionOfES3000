@@ -1,0 +1,11 @@
+03-08 20:53:05 1407066785
+job.hioa3.jfs.mmap.read.bs2k.j1.depth16: (g=0): rw=read, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=16
+fio-2.0.14
+Starting 1 process
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  hioa: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+03-08 20:53:05 1407066785

@@ -1,0 +1,30 @@
+03-08 14:17:53 1407043073
+job.hioa3.jfs.libaio.read.bs4k.j1.depth4: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=4
+fio-2.0.14
+Starting 1 process
+
+job.hioa3.jfs.libaio.read.bs4k.j1.depth4: (groupid=0, jobs=1): err= 0: pid=9626: Sun Aug  3 14:17:59 2014
+  read : io=1024.0MB, bw=195157KB/s, iops=48789 , runt=  5373msec
+    slat (usec): min=2 , max=26 , avg= 3.18, stdev= 0.44
+    clat (usec): min=26 , max=549 , avg=77.71, stdev=32.45
+     lat (usec): min=45 , max=553 , avg=81.02, stdev=32.45
+    clat percentiles (usec):
+     |  1.00th=[   45],  5.00th=[   45], 10.00th=[   47], 20.00th=[   48],
+     | 30.00th=[   49], 40.00th=[   49], 50.00th=[   89], 60.00th=[   91],
+     | 70.00th=[  101], 80.00th=[  105], 90.00th=[  113], 95.00th=[  119],
+     | 99.00th=[  131], 99.50th=[  149], 99.90th=[  402], 99.95th=[  442],
+     | 99.99th=[  498]
+    bw (KB/s)  : min=194640, max=197056, per=100.00%, avg=195346.40, stdev=678.70
+    lat (usec) : 50=42.49%, 100=26.78%, 250=30.49%, 500=0.23%, 750=0.01%
+  cpu          : usr=12.29%, sys=22.15%, ctx=250857, majf=0, minf=29
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=262144/w=0/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+   READ: io=1024.0MB, aggrb=195156KB/s, minb=195156KB/s, maxb=195156KB/s, mint=5373msec, maxt=5373msec
+
+Disk stats (read/write):
+  hioa: ios=251459/0, merge=0/0, ticks=18620/0, in_queue=18630, util=98.15%
+03-08 14:17:59 1407043079

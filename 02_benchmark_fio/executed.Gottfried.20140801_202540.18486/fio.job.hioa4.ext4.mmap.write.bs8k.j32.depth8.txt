@@ -1,0 +1,6 @@
+04-08 22:25:35 1407158735
+job.hioa4.ext4.mmap.write.bs8k.j32.depth8: (g=0): rw=write, bs=8K-8K/8K-8K/8K-8K, ioengine=mmap, iodepth=8
+...
+job.hioa4.ext4.mmap.write.bs8k.j32.depth8: (g=0): rw=write, bs=8K-8K/8K-8K/8K-8K, ioengine=mmap, iodepth=8
+fio-2.0.14
+Starting 32 processes

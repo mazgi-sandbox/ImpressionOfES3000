@@ -1,0 +1,2 @@
+Filesystem     1K-blocks  Used Available Use% Mounted on
+/dev/hioa4     206293688 60684 195730860   1% /mnt/hioa4
