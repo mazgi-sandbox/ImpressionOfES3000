@@ -1,0 +1,1 @@
+/dev/hioa5 on /mnt/hioa5 type xfs (rw)

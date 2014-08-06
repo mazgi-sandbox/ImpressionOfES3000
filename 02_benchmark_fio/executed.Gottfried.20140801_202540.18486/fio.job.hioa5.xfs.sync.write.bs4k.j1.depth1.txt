@@ -1,0 +1,29 @@
+06-08 04:05:37 1407265537
+job.hioa5.xfs.sync.write.bs4k.j1.depth1: (g=0): rw=write, bs=4K-4K/4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio-2.0.14
+Starting 1 process
+
+job.hioa5.xfs.sync.write.bs4k.j1.depth1: (groupid=0, jobs=1): err= 0: pid=19675: Wed Aug  6 04:05:41 2014
+  write: io=1024.0MB, bw=276742KB/s, iops=69185 , runt=  3789msec
+    clat (usec): min=12 , max=47 , avg=13.36, stdev= 0.62
+     lat (usec): min=12 , max=47 , avg=13.51, stdev= 0.57
+    clat percentiles (usec):
+     |  1.00th=[   12],  5.00th=[   12], 10.00th=[   13], 20.00th=[   13],
+     | 30.00th=[   13], 40.00th=[   13], 50.00th=[   13], 60.00th=[   14],
+     | 70.00th=[   14], 80.00th=[   14], 90.00th=[   14], 95.00th=[   14],
+     | 99.00th=[   14], 99.50th=[   14], 99.90th=[   16], 99.95th=[   17],
+     | 99.99th=[   18]
+    bw (KB/s)  : min=274856, max=278544, per=99.96%, avg=276634.29, stdev=1201.75
+    lat (usec) : 20=99.99%, 50=0.01%
+  cpu          : usr=11.88%, sys=29.04%, ctx=262149, majf=0, minf=25
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=262144/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+  WRITE: io=1024.0MB, aggrb=276742KB/s, minb=276742KB/s, maxb=276742KB/s, mint=3789msec, maxt=3789msec
+
+Disk stats (read/write):
+  hioa: ios=0/252393, merge=0/0, ticks=0/2100, in_queue=2110, util=56.31%
+06-08 04:05:41 1407265541

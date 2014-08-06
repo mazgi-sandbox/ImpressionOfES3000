@@ -1,0 +1,30 @@
+06-08 10:48:43 1407289723
+job.hioa1.btrfs.libaio.read.bs8k.j8.depth16: (g=0): rw=read, bs=8K-8K/8K-8K/8K-8K, ioengine=libaio, iodepth=16
+...
+job.hioa1.btrfs.libaio.read.bs8k.j8.depth16: (g=0): rw=read, bs=8K-8K/8K-8K/8K-8K, ioengine=libaio, iodepth=16
+fio-2.0.14
+Starting 8 processes
+
+job.hioa1.btrfs.libaio.read.bs8k.j8.depth16: (groupid=0, jobs=8): err= 0: pid=27556: Wed Aug  6 10:48:49 2014
+  read : io=8192.0MB, bw=1433.7MB/s, iops=183509 , runt=  5714msec
+    slat (usec): min=6 , max=6404 , avg=41.19, stdev=21.46
+    clat (usec): min=77 , max=7193 , avg=650.34, stdev=262.90
+     lat (usec): min=85 , max=7235 , avg=691.73, stdev=264.29
+    clat percentiles (usec):
+     |  1.00th=[  221],  5.00th=[  358], 10.00th=[  454], 20.00th=[  540],
+     | 30.00th=[  580], 40.00th=[  604], 50.00th=[  628], 60.00th=[  644],
+     | 70.00th=[  668], 80.00th=[  708], 90.00th=[  796], 95.00th=[  972],
+     | 99.00th=[ 1832], 99.50th=[ 2288], 99.90th=[ 3184], 99.95th=[ 3472],
+     | 99.99th=[ 4256]
+    bw (KB/s)  : min=173280, max=195376, per=12.48%, avg=183223.09, stdev=4409.23
+    lat (usec) : 100=0.01%, 250=1.65%, 500=12.56%, 750=72.62%, 1000=8.50%
+    lat (msec) : 2=3.91%, 4=0.75%, 10=0.01%
+  cpu          : usr=4.38%, sys=92.78%, ctx=131620, majf=0, minf=454
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=100.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.1%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=1048576/w=0/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+   READ: io=8192.0MB, aggrb=1433.7MB/s, minb=1433.7MB/s, maxb=1433.7MB/s, mint=5714msec, maxt=5714msec
+06-08 10:48:49 1407289729
