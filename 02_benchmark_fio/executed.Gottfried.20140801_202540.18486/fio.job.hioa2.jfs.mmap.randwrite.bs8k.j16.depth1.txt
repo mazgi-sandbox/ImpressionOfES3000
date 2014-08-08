@@ -1,0 +1,33 @@
+07-08 17:27:31 1407400051
+job.hioa2.jfs.mmap.randwrite.bs8k.j16.depth1: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=mmap, iodepth=1
+...
+job.hioa2.jfs.mmap.randwrite.bs8k.j16.depth1: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=mmap, iodepth=1
+fio-2.0.14
+Starting 16 processes
+
+job.hioa2.jfs.mmap.randwrite.bs8k.j16.depth1: (groupid=0, jobs=16): err= 0: pid=6178: Thu Aug  7 17:28:43 2014
+  write: io=16384MB, bw=233669KB/s, iops=29208 , runt= 71799msec
+    clat (usec): min=24 , max=11296 , avg=544.77, stdev=135.30
+     lat (usec): min=24 , max=11296 , avg=545.11, stdev=135.31
+    clat percentiles (usec):
+     |  1.00th=[  193],  5.00th=[  314], 10.00th=[  378], 20.00th=[  458],
+     | 30.00th=[  506], 40.00th=[  532], 50.00th=[  556], 60.00th=[  572],
+     | 70.00th=[  596], 80.00th=[  620], 90.00th=[  700], 95.00th=[  764],
+     | 99.00th=[  868], 99.50th=[  908], 99.90th=[ 1048], 99.95th=[ 1096],
+     | 99.99th=[ 1272]
+    bw (KB/s)  : min=13520, max=15520, per=6.25%, avg=14607.91, stdev=151.41
+    lat (usec) : 50=0.03%, 100=0.20%, 250=2.07%, 500=26.14%, 750=65.73%
+    lat (usec) : 1000=5.68%
+    lat (msec) : 2=0.15%, 4=0.01%, 10=0.01%, 20=0.01%
+  cpu          : usr=1.18%, sys=39.11%, ctx=21163312, majf=0, minf=4289995
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=2097152/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+  WRITE: io=16384MB, aggrb=233669KB/s, minb=233669KB/s, maxb=233669KB/s, mint=71799msec, maxt=71799msec
+
+Disk stats (read/write):
+  hioa: ios=0/3321712, merge=0/0, ticks=0/67630, in_queue=68450, util=50.43%
+07-08 17:28:43 1407400123

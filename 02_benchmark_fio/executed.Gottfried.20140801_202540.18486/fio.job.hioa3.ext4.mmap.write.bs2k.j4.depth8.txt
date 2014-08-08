@@ -1,0 +1,13 @@
+08-08 12:25:00 1407468300
+job.hioa3.ext4.mmap.write.bs2k.j4.depth8: (g=0): rw=write, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=8
+...
+job.hioa3.ext4.mmap.write.bs2k.j4.depth8: (g=0): rw=write, bs=2K-2K/2K-2K/2K-2K, ioengine=mmap, iodepth=8
+fio-2.0.14
+Starting 4 processes
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  hioa: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+08-08 12:25:01 1407468301

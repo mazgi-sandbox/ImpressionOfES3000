@@ -1,0 +1,31 @@
+07-08 12:44:02 1407383042
+job.hioa2.jfs.mmap.read.bs4k.j4.depth4: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=mmap, iodepth=4
+...
+job.hioa2.jfs.mmap.read.bs4k.j4.depth4: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=mmap, iodepth=4
+fio-2.0.14
+Starting 4 processes
+
+job.hioa2.jfs.mmap.read.bs4k.j4.depth4: (groupid=0, jobs=4): err= 0: pid=30910: Thu Aug  7 12:44:03 2014
+  read : io=4096.0MB, bw=7613.4MB/s, iops=1949.3K, runt=   538msec
+    clat (usec): min=1 , max=20 , avg= 1.60, stdev= 0.63
+     lat (usec): min=1 , max=20 , avg= 1.65, stdev= 0.62
+    clat percentiles (usec):
+     |  1.00th=[    1],  5.00th=[    1], 10.00th=[    1], 20.00th=[    1],
+     | 30.00th=[    1], 40.00th=[    1], 50.00th=[    2], 60.00th=[    2],
+     | 70.00th=[    2], 80.00th=[    2], 90.00th=[    2], 95.00th=[    2],
+     | 99.00th=[    3], 99.50th=[    4], 99.90th=[    7], 99.95th=[    7],
+     | 99.99th=[   10]
+    bw (MB/s)  : min= 2021, max= 2068, per=26.08%, avg=2032.99, stdev=23.47
+    lat (usec) : 2=44.35%, 4=54.90%, 10=0.74%, 20=0.01%, 50=0.01%
+  cpu          : usr=54.77%, sys=43.91%, ctx=2932, majf=0, minf=1048710
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=1048576/w=0/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+   READ: io=4096.0MB, aggrb=7613.4MB/s, minb=7613.4MB/s, maxb=7613.4MB/s, mint=538msec, maxt=538msec
+
+Disk stats (read/write):
+  hioa: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+07-08 12:44:03 1407383043

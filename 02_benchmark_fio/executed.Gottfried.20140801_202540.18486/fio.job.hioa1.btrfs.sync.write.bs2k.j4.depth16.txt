@@ -1,0 +1,16 @@
+07-08 01:47:07 1407343627
+job.hioa1.btrfs.sync.write.bs2k.j4.depth16: (g=0): rw=write, bs=2K-2K/2K-2K/2K-2K, ioengine=sync, iodepth=16
+...
+job.hioa1.btrfs.sync.write.bs2k.j4.depth16: (g=0): rw=write, bs=2K-2K/2K-2K/2K-2K, ioengine=sync, iodepth=16
+fio-2.0.14
+Starting 4 processes
+
+job.hioa1.btrfs.sync.write.bs2k.j4.depth16: (groupid=0, jobs=4): err=30 (file:filesetup.c:573, func=open(/mnt/hioa1/fio.bin), error=Read-only file system): pid=14394: Thu Aug  7 01:47:08 2014
+  cpu          : usr=0.00%, sys=0.00%, ctx=1, majf=0, minf=204
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=50.0%, 4=50.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=4/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+07-08 01:47:08 1407343628

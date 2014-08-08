@@ -1,0 +1,9 @@
+07-08 04:46:43 1407354403
+job.hioa1.btrfs.sync.randwrite.bs8k.j2.depth1: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=sync, iodepth=1
+job.hioa1.btrfs.sync.randwrite.bs8k.j2.depth1: (g=0): rw=randwrite, bs=8K-8K/8K-8K/8K-8K, ioengine=sync, iodepth=1
+fio-2.0.14
+Starting 2 processes
+
+
+Run status group 0 (all jobs):
+07-08 04:46:43 1407354403

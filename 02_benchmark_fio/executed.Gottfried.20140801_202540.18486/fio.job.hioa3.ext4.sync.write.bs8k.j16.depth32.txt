@@ -1,0 +1,6 @@
+08-08 21:28:10 1407500890
+job.hioa3.ext4.sync.write.bs8k.j16.depth32: (g=0): rw=write, bs=8K-8K/8K-8K/8K-8K, ioengine=sync, iodepth=32
+...
+job.hioa3.ext4.sync.write.bs8k.j16.depth32: (g=0): rw=write, bs=8K-8K/8K-8K/8K-8K, ioengine=sync, iodepth=32
+fio-2.0.14
+Starting 16 processes
