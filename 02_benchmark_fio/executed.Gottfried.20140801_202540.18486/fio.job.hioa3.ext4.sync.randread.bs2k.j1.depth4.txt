@@ -1,0 +1,29 @@
+08-08 21:43:08 1407501788
+job.hioa3.ext4.sync.randread.bs2k.j1.depth4: (g=0): rw=randread, bs=2K-2K/2K-2K/2K-2K, ioengine=sync, iodepth=4
+fio-2.0.14
+Starting 1 process
+
+job.hioa3.ext4.sync.randread.bs2k.j1.depth4: (groupid=0, jobs=1): err= 0: pid=6133: Fri Aug  8 21:44:01 2014
+  read : io=1024.0MB, bw=19960KB/s, iops=9979 , runt= 52535msec
+    clat (usec): min=45 , max=457 , avg=98.78, stdev=14.78
+     lat (usec): min=45 , max=457 , avg=98.87, stdev=14.78
+    clat percentiles (usec):
+     |  1.00th=[   88],  5.00th=[   89], 10.00th=[   90], 20.00th=[   90],
+     | 30.00th=[   91], 40.00th=[   91], 50.00th=[  104], 60.00th=[  105],
+     | 70.00th=[  106], 80.00th=[  106], 90.00th=[  107], 95.00th=[  107],
+     | 99.00th=[  117], 99.50th=[  149], 99.90th=[  326], 99.95th=[  374],
+     | 99.99th=[  430]
+    bw (KB/s)  : min=19800, max=21532, per=100.00%, avg=19960.88, stdev=234.67
+    lat (usec) : 50=0.87%, 100=48.33%, 250=50.61%, 500=0.18%
+  cpu          : usr=2.21%, sys=3.83%, ctx=524306, majf=0, minf=24
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=524288/w=0/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+   READ: io=1024.0MB, aggrb=19959KB/s, minb=19959KB/s, maxb=19959KB/s, mint=52535msec, maxt=52535msec
+
+Disk stats (read/write):
+  hioa: ios=522999/0, merge=0/0, ticks=48780/0, in_queue=48800, util=92.96%
+08-08 21:44:01 1407501841
